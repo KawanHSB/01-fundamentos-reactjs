@@ -1,8 +1,11 @@
 import { useState } from 'react'
-import { Header } from './components/Header/Header'
+
 import "./global.css"
 import styles from "./app.module.css"
-import { Sidebar } from './components/Header/Sidebar/Sidebar'
+import { Header } from './components/Header'
+import { Sidebar } from './components/Sidebar'
+import { Post } from './components/Post'
+
 
 function App() {
 
@@ -11,7 +14,10 @@ function App() {
       <Header/>
       <div className={styles.wrapper}>
         <Sidebar/>
-        <main></main>
+        <main>
+          <Post/>
+          <Post/>
+        </main>
       </div>
     </div>
   )
