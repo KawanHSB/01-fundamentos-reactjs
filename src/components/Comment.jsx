@@ -9,7 +9,7 @@ export function Comment({ content, onDeleteComment }) {
     }
 
     return (
-        <div className={styles.Comment}>
+        <div className={styles.comment}>
             <Avatar hasborder={false} src="https://avatars.githubusercontent.com/u/34041251?v=4"/>
 
             <div className={styles.commentBox}>

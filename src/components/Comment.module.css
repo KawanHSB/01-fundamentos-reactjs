@@ -2,7 +2,6 @@
     margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
-    flex-direction: column;
 }
 
 .avatar {   
@@ -13,7 +12,7 @@
 
 .commentBox {
     flex: 1;
-} 
+}
 
 .commentContent {
     background: var(--gray-700);
@@ -26,7 +25,6 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-
 
 .authorAndTime strong {
     display: block;
@@ -78,7 +76,7 @@
 
 .commentBox footer button svg {
     margin-right: 0.5rem;
-    margin-bottom: 1rem;
+
 }
 
 .commentBox footer button span::before {
